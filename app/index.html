@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>slime mold simulation</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="canvas visualization of a simulated slime mold" />
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script type="module" src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>
+      <i>physarum</i> slime mold simulation
+    </h1>
+    <section>
+      <canvas width="512" height="512" name="main-canvas" style="border:3px solid"></canvas>
+      <div>
+        <canvas width="512" height="512" name="timeline-canvas" style="border:3px solid"></canvas>
+        <h3>
+          parameters
+        </h3>
+        <form>
+        </form>
+        <details>
+          <summary><h3>glossary</h3></summary>
+          <ul>
+            <li>
+              <b>decay</b>: the dropoff factor of residual deposits
+            </li>
+            <li>
+              <b>sensorAngle</b>: angle from center of the two side "sensors" on each particle
+            </li>
+            <li>
+              <b>sensorDistance</b>: distance from the particle the sensors protrude
+            </li>
+            <li>
+              <b>rotation</b>: angle of rotation particles make when turning
+            </li>
+            <li>
+              <b>velocity</b>: distance particles travel each frame
+            </li>
+            <li>
+              <b>depositSize</b>: amount of residue deposited by particles each frame
+            </li>
+            <li>
+              <b>divergenceProbability</b>: the probability of particle diverging from the chosen path
+            </li>
+            <li>
+              <b>diffusionDistance</b>: the distance diffusion is applied for each pixel
+            </li>
+            <li>
+              <b>size</b>: size of the canvas
+            </li>
+            <li>
+              <b>particles</b>: number of particles, as the proportion of the canvas area
+            </li>
+          </ul>
+        </details>
+        <details>
+          <summary><h3>
+            what even is this?
+          </h3></summary>
+          <div>
+            <p>A javascript implementation of a <i>physarum</i> slime mold simulation,
+            inspired by this post by <a href="https://sagejenson.com/physarum">Sage Jenson</a>.
+            The simulation consists of a set of particles and a "deposition" layer
+            where the particles leave trails. The trails diffuse each frame.
+            Each particle has a position, heading, and 3 "sensors" used to determine
+            direction change. Lots more information available in the linked blog post
+            and the <a href="http://eprints.uwe.ac.uk/15260/1/artl.2010.16.2.pdf">
+              original paper</a>.</p>
+            
+            <p>You can right click on the canvas to save any appealing images, and the
+              parameters are encoded in the URL so you can share any interesting configurations!</p>
+          </div>
+        </details>        
+      </div>
+    </section>
+    <footer>
+      <!--- rip to your cpu, sorry &middot;
+      <a href="https://glitch.com/edit/#!/slime-mold-sim">view source on glitch</a> &middot;
+      🦒 made by <a href="https://potch.me/">potch</a> --->
+    </footer>
+  </body>
+</html>
