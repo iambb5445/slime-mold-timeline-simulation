@@ -38,3 +38,5 @@ These are all the results created by the system. This section will be updated to
 ![Screenshot 2022-03-08 at 14-14-16 slime mold simulation](https://user-images.githubusercontent.com/25642714/157335650-3fdc50f9-c4ce-4d1e-81be-1a6924dd2a34.png)
 ![Screenshot 2022-03-08 at 14-12-54 slime mold simulation](https://user-images.githubusercontent.com/25642714/157335651-3d3e053f-5faa-4167-a2b7-57182fc37227.png)
 ![Screenshot 2022-03-08 at 14-21-00 slime mold simulation](https://user-images.githubusercontent.com/25642714/157335653-e675f2ba-9d05-4473-a11b-2146c0ea82c2.png)
+![Screenshot 2022-03-08 at 14-23-17 slime mold simulation](https://user-images.githubusercontent.com/25642714/157335974-a1a83693-7cc2-4d06-9880-a330c69a5122.png)
+![Screenshot 2022-03-08 at 14-22-49 slime mold simulation](https://user-images.githubusercontent.com/25642714/157335976-7fb09835-ace5-4a59-a833-8e5fcefb1fda.png)
